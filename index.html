@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div id="game">
+        <div id="stats">
+            <span class="stat">XP: 
+                <span id="xpText"><strong>0</strong></span>
+            </span>
+            <span class="stat">Health: 
+                <span id="healthText"><strong>100</strong></span>
+            </span>
+            <span class="stat">Gold: 
+                <span id="goldText"><strong>50</strong></span>
+            </span>
+        </div>
+
+
+        <div id="location">
+            <button type="button" id="store">Go to Store</button>
+            <button type="button" id="cave">Go to cave</button>
+            <button type="button" id="fight">Fight Dragon</button>
+        </div>
+
+
+        <div id="monsterStats">
+            <span class="stat">Monster Name: <strong>
+                <span id="monsterNameText"></span></strong>
+            </span>
+            <span class="stat">Health: <strong>
+                <span id="monsterHealthText"></span></strong>
+            </span>
+        </div>
+
+
+        <div id="explanation">
+                Welcome to Dragon Repeller. You must detect the dragon that is preventing
+                people from leaving the town. You are in the town space. Where do you want to go now? 
+                Use the buttons above
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="index.js"></script>
+</html>
