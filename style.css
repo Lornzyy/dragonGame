@@ -5,15 +5,15 @@
 }
 
 html {
-    max-width: 32rem;
+    max-width: 28rem;
     margin: 100px auto;
     background: blue;
 }
 #game {
     border: 2px solid black;
-    padding: 10px;
+    padding: 15px;
     background: grey;
-    border-radius: 20px;
+    border-radius: 20px;   
 }
 
 #stats {
@@ -37,11 +37,20 @@ button {
     cursor: pointer;
 }
 
+#monsterStats {
+    display: none;
+    color: aquamarine;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
 #explanation {
     background: black;
     color: wheat;
     padding: 12px;
     margin: 10px;
-    border: 10px solid red;
+    border: 2px solid red;
     text-align: justify;
 }
