@@ -183,9 +183,9 @@ function sellWeapon(){
 
         gold.innerText = gold;
         let currentWeapon = inventory.pop();
-        text.innerText = `You have sold ${currentWeapon}. \n You have remained with${inventory}`;
+        text.innerText = `You have sold ${currentWeapon}. \n You have remained with: ${inventory}.`;
     } else {
-        text.innerText = "Don't sell your only weapon"
+        text.innerText = "Don't sell your only weapon!"
     }
 }
 
